@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Google Map"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:onClick="simpleMap"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Marker And POI"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:onClick="markerAndPoi"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Map Style And Overlay"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:onClick="mapStyleAndOverlay"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Location Tracking"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:onClick="currentLocationTracking"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Location Lat Long"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:onClick="currentLocationLatLong"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"/>
+</LinearLayout>

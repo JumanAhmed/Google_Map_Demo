@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Google Map Demo</string>
+    <string name="title_activity_simple_google_map">Map</string>
+
+
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="dropped_pin">Dropped Pin</string>
+    <string name="title_activity_second_map">Map</string>
+    <string name="title_activity_third_map">Map</string>
+    <string name="title_activity_fourth_map">Map</string>
+    <string name="title_activity_fifth_map">Map</string>
+</resources>
